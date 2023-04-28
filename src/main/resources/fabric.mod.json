@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "tfutil",
+  "version": "${version}",
+
+  "name": "TotalFreedom Util",
+  "description": "A collection of various utilities for making TotalFreedom a more enjoyable experience.",
+  "authors": [
+    "Allink"
+  ],
+  "contact": {
+    "homepage": "https://github.com/allinkdev/TFUtil/",
+    "sources": "https://github.com/allinkdev/TFUtil/",
+    "issues": "https://github.com/allinkdev/TFUtil/issues/"
+  },
+
+  "license": "UNLICENSE",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.github.allinkdev.tfutil.TFUtil"
+    ]
+  },
+  "mixins": [
+    "tfutil.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  }
+}
